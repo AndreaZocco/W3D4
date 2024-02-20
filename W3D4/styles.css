@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'Feather';
+  src: url(./assets/feather.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero-background {
+  background: linear-gradient(-45deg, #7550FE, #7b367e, #5a52c9, #7016d6);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+body {
+  font-family: 'Feather', sans-serif;
+}
+
+.jumbotron {
+  color: white;
+}
+
+.benefits-section {
+  color: #757575;
+}
+
+.benefits-section h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+
+.benefits-section p {
+  color: #757575;
+}
+
+
+.benefits-section i {
+  color: #FFD700;
+  margin-right: 15px;
+}
+
+.btn-primary {
+  background-color: #00D363;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #F3F3F3;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+}
+
+.hero-background {
+  background-color: #7550FE;
+}
+
+.footer-top-spacing {
+  margin-top: 4rem;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.section-spacing {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.nav-link-color {
+  color: black;
+}
+
+.footer-background {
+  background-color: #F5F4F8;
+}
+
+.footer-copyright {
+  color: black;
+}
+
+.card-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.course-meta .rating .stars {
+  color: #FFD700;
+}
+
+.course-meta .rating .score {
+  color: #757575;
+  margin-left: 5px;
+}
+
+.course-meta .price .current-price {
+  color: #000;
+  font-weight: bold;
+}
+
+.course-meta .price .original-price {
+  color: #757575;
+  text-decoration: line-through;
+}
+
+.instructor {
+  display: flex;
+  align-items: center;
+}
+
+.instructor .instructor-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.instructor .instructor-name {
+  color: #000;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(1);
+  box-shadow: none;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.svg-icon {
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+.card-footer {
+  position: relative;
+}
+
+.save-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#bookmark-icon {
+  transition: fill 0.3s ease;
+}
+
+#bookmark-icon:hover {
+  fill: #3498db;
+}
+
+.fadeInScroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.isVisible {
+  opacity: 1;
+  transform: none;
+}
